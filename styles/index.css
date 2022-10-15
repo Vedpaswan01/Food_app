@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: auto;
+
+  background-image: url(../images/background.jpg);
+
+  background-size: 100%;
+}
+a {
+  text-decoration: none;
+  color: #e19a3e;
+}
+
+#navbar {
+  display: flex;
+  background-color: #f4eddd;
+
+  padding: 10px 60px;
+  justify-content: space-between;
+}
+
+#navbar > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+#navbar > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+#user_icon_div {
+  display: flex;
+  /* border: 1px solid red; */
+
+  align-items: center;
+}
+#user_icon_div > img {
+  height: 30px;
+}
+
+h3,
+h2,
+p {
+  /* border: 1px solid red; */
+  font-family: sans-serif;
+}
+
+#search-bar {
+  width: 35%;
+  /* max-width: 700px; */
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  /* border-radius: 60px; */
+  padding: 1px 5px;
+  backdrop-filter: blur(4px) saturate(80%);
+  margin: auto;
+  margin-top: 25px;
+}
+
+#search-bar input {
+  width: 200px;
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 10px 10px;
+  font-size: 15px;
+  color: #cac7ff;
+  /* border-radius: 60px; */
+}
+
+::placeholder {
+  color: #cac7ff;
+}
+
+#search-bar button img {
+  width: 20px;
+  /* border: 1px solid red; */
+}
+
+#search-bar button {
+  border: 0;
+  /* border-radius: 50px; */
+  width: 40px;
+  height: 40px;
+  background: #58629b;
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  padding: 100px;
+  gap: 20px;
+}
+
+#container > div {
+  width: 100%;
+  height: 350px;
+  /* background: rgba(255, 255, 255, 0.2); */
+  background-color: #71706d;
+  /* background: transparent; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+  border-radius: 50px;
+  word-wrap: break-word;
+  color: white;
+  backdrop-filter: blur(4px) saturate(80%);
+  border: 1px solid white;
+}
+
+#container > div > img {
+  width: 100px;
+  height: 100px;
+  margin-left: 25px;
+}
+
+#discription {
+  width: 80%;
+  height: auto;
+  /* border: 1px solid red; */
+  overflow: hidden;
+}

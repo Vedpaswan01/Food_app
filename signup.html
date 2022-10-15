@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/signup&login.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <div id="signup-form-div">
+      <form onsubmit="user_signUp(event)" action="" id="form">
+        <!--Write form input elements here-->
+        <h1>Signup</h1>
+        <input type="text" placeholder="Enter Your Name" id="name" />
+        <input type="tel" placeholder="Enter phone Number" id="phone" />
+        <input type="email" placeholder="Enter Your email" id="email" />
+        <input type="password" placeholder="Enter Your Passowrd" id="Usrpass" />
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
+
+<script src="./scripts/index.js " type="module"></script>
+<script src="./scripts/login&signup.js"></script>
