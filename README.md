@@ -22,6 +22,8 @@ Database:
 
 
 <a href="https://im.ge/i/SZL1zM"><img src="https://i.im.ge/2022/12/05/SZL1zM.Screenshot-591.png" alt="Screenshot (591)" border="0" /></a>
+### Meal Of The Day
+![meal_of_the_day](https://github.com/Vedpaswan01/Food_app/assets/105913917/8a9324e2-764d-479f-8b8e-f77ec01bb57d)
 
 ### Login Page :
 
